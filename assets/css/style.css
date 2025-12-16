@@ -294,3 +294,26 @@ ul {
   }
 
 }
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.cart-table th {
+  background: #f1f5f9;
+}
+
+.cart-table button {
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
